@@ -9,7 +9,6 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -25,13 +24,13 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto">
                 <div class="logo" style="padding-left: 150px;"></div>
                 <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                 <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
+        </ul>
         </div>
     </div>
 </nav>
@@ -48,15 +47,15 @@
 <section id="about" class="py-5">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-6">
-                <img src="hazh studio logog.png" alt="About Us" class="img-fluid rounded" style="width: 450px; height: 80px;">
+        <div class="col-md-6">
+        <img src="hazh studio logog.png" alt="About Us" class="img-fluid rounded" style="width: 450px; height: 80px;">
 
             </div>
-            <div class="col-md-6">
+        <div class="col-md-6">
                 <h2 style="font-size: 36px;">About Us</h2>
                 <p style="font-size: 20px;" class="lead">We specialize in delivering tailored digital solutions for brands and businesses.</p>
                 <p>Our team of experts works closely with you to create meaningful experiences that resonate with your audience.</p>
-            </div>
+        </div>
         </div>
     </div>
 </section>
@@ -90,10 +89,7 @@
 
 
 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
-
 <style>
-    /* Hover Animation Styles */
     .portfolio-item {
         overflow: hidden;
         position: relative;
@@ -108,8 +104,8 @@
     }
 
     .portfolio-item:hover img {
-        transform: scale(1.1); /* Zoom effect */
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+        transform: scale(1.1); 
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
     }
 
     .portfolio-item h5 {
@@ -117,14 +113,14 @@
     }
 
     .portfolio-item:hover h5 {
-        color: #e2a13e; /* Change text color on hover */
+        color: #e2a13e; 
     }
 </style>
 
 
 
 <style>
-/* Portfolio container styling */
+
 .portfolio-overlay {
     position: relative;
     overflow: hidden;
@@ -139,14 +135,14 @@
     transition: transform 0.5s ease;
 }
 
-/* Layer styling */
+
 .portfolio-overlay .layer {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    background: rgba(0, 0, 0, 0.7); 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -157,9 +153,9 @@
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-/* Hover effects */
+
 .portfolio-overlay:hover img {
-    transform: scale(1.1); /* Zoom-in effect */
+    transform: scale(1.1); 
 }
 
 .portfolio-overlay:hover .layer {
@@ -167,7 +163,7 @@
     transform: scale(1);
 }
 
-/* Layer text styling */
+
 .portfolio-overlay .layer h5 {
     font-size: 1.5rem;
     margin-bottom: 10px;
@@ -187,7 +183,7 @@
     <div class="container text-center">
         <h2 style="font-size: 32px;">Our Work</h2>
         <div class="row mt-4">
-            <!-- Portfolio Item 1 -->
+            
             <div class="col-md-4 portfolio-item">
                 <div class="portfolio-overlay">
                     <a href="https://www.behance.net/gallery/212739301/Type-Construction">
@@ -199,7 +195,7 @@
                     </a>
                 </div>
             </div>
-            <!-- Portfolio Item 2 -->
+            
             <div class="col-md-4 portfolio-item">
                 <div class="portfolio-overlay">
                     <a href="https://www.behance.net/gallery/212389175/Prop-Designs">
@@ -211,7 +207,7 @@
                     </a>
                 </div>
             </div>
-            <!-- Portfolio Item 3 -->
+            
             <div class="col-md-4 portfolio-item">
                 <div class="portfolio-overlay">
                     <a href="https://www.behance.net/gallery/207429933/O-Drop-Letter-Design">
@@ -223,7 +219,7 @@
                     </a>
                 </div>
             </div>
-            <!-- Portfolio Item 4 -->
+            
             <div class="col-md-4 portfolio-item">
                 <div class="portfolio-overlay">
                     <a href="https://www.behance.net/gallery/197692397/Decathlon-Campaign">
@@ -235,7 +231,7 @@
                     </a>
                 </div>
             </div>
-            <!-- Portfolio Item 5 -->
+            
             <div class="col-md-4 portfolio-item">
                 <div class="portfolio-overlay">
                     <a href="https://www.behance.net/gallery/195684771/kiko-Visual-Branding">
@@ -247,7 +243,7 @@
                     </a>
                 </div>
             </div>
-            <!-- Portfolio Item 6 -->
+             
             <div class="col-md-4 portfolio-item">
                 <div class="portfolio-overlay">
                     <a href="https://www.behance.net/gallery/195632361/A-Journey-Through-Color-Book-Design">
@@ -266,24 +262,14 @@
 
 
 
-<!-- Include AOS JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<script>
-    AOS.init({
-        duration: 1000, // Animation duration
-        once: true, // Whether animation should happen only once
-    });
-</script>
-
-
 
 <section id="contact" class="py-5 bg-light">
     <div class="container">
         <h2 class="text-center mb-4">Contact Us</h2>
 
-        <!-- Row for Form and Contact Info -->
+        
         <div class="row">
-            <!-- Contact Form Section -->
+            
             <div class="col-lg-6">
                 <form class="mt-4">
                     <div class="mb-3">
@@ -306,7 +292,7 @@
                 </form>
             </div>
 
-            <!--Contact Information Section-->
+            
             <div class="col-lg-6">
                 <h4>Our Location</h4>
                 <p><strong>HaZh Studio</strong><br>Mumbai,Maharashtra India </p>
@@ -318,11 +304,11 @@
                     <li><strong>Office Hours:</strong> Mon - Fri, 9:00 AM - 5:00 PM</li>
                 </ul>
 
-                <!-- Google Maps Integration -->
+                <!-- Google Maps -->
                 <h4 class="mt-4">Find Us Here</h4>
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.2741294902074!2d90.41213221483055!3d23.81041309312
-                    496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8a8ec0e3b73%3A0x57b3a82e4e71db8!2sBangladesh!5e0!3m2!1sen!2sbd!4v1609327771712!5m2!1sen!2sbd" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.5888341930363!2d73.05616917620509!3d19.03783138215892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c23ec84a6389%3A0xadf9dc428ca16de5!2sEden%20Garden%2C%20Kamdhenu%20Eden%20Garden%2C%2037%2C%20Sector%
+                    206%2C%20Kharghar%2C%20Navi%20Mumbai%2C%20Maharashtra%20410210!5e0!3m2!1sen!2sin!4v1733741157027!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </div>
@@ -330,7 +316,7 @@
 </section>
 
  
-<!-- Footer -->
+
 <footer class="py-4 bg-dark text-white text-center">
     <p>&copy; 2024 HaZh Studio. All rights reserved.</p>
     
